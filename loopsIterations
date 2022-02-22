@@ -1,0 +1,10 @@
+// level {2}
+
+let fibonaccNum = [1 1 2 3 5 8];
+let sum;
+
+
+for(let i=0; i< fibonaccNum.length; i++){
+    sum+= fibonaccNum[i];
+}
+console.log(sum);
